@@ -5,6 +5,7 @@ import sys
 # string s1 can be transformed into string s2 by the direct substition of the
 # characters in s1 with their corresponding character in s2
 # (Each unique character in s1 can only be assosiated to a single character in s2)
+# I am also assuming the two string must be of the same length, based on the provivded examples
 def evaluate(s1,s2):
     char_map = {}
     if len(s1) != len(s2):
