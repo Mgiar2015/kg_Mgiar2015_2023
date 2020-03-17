@@ -19,6 +19,6 @@ def evaluate(s1,s2):
             pass
     return True
 
-# I conver the output to a string and then print in lowercase so the output
+# I convert the output to a string and then print in lowercase so the output
 # matches the example provided
 print(str(evaluate(sys.argv[1],sys.argv[2])).lower())
